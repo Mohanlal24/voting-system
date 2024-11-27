@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.options {
+    margin-bottom: 20px;
+}
+
+.vote-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.vote-btn:hover {
+    background-color: #45a049;
+}
+
+.results {
+    margin-top: 20px;
+}
+
+.results div {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.message {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #ff6347;
+}
